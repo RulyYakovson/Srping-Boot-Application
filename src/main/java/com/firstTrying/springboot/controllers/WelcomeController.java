@@ -18,7 +18,7 @@ public class WelcomeController {
     public String welcomeMessage(){
         return service.returnWelcomMessage();
     }
-
+// Hi
     @RequestMapping(value = "/url/{urlToValidate}", method = RequestMethod.GET)
     public boolean checkURL(@PathVariable("urlToValidate") String url){
         return service.checkURL(url);
